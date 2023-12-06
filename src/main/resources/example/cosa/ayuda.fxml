@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="example.cosa.AyudaController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <Text layoutX="50.0" layoutY="50.0" text="Cómo Jugar al Tres en Raya">
+        <font>
+            <javafx.scene.text.Font size="18.0"/>
+        </font>
+    </Text>
+
+    <Text layoutX="50.0" layoutY="100.0" text="El Tres en Raya es un juego para dos jugadores. Cada jugador utiliza un símbolo, X o O, y se turnan para colocar su símbolo en un tablero de 3x3. El objetivo es conseguir tres de sus símbolos en línea horizontal, vertical o diagonal." />
+
+    <Button fx:id="salir" layoutX="50.0" layoutY="300.0" text="Volver Atrás" onAction="#volverAtras" />
+
+</AnchorPane>
